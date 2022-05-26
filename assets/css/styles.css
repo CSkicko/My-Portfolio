@@ -1,0 +1,52 @@
+* {
+    font-family: 'Trebuchet MS', 'Tahoma', sans-serif;
+    font-size: 16px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 2% 16px 0;
+    background-color: #2D3142
+}
+
+h1 {
+    font-size: 200%;
+    font-weight: 500;
+    color: #EADEDA;
+    border-bottom: 1px solid #0FF4C6;
+    padding: 0% 0.5% 0% 7%;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    min-width: 250px;
+}
+
+nav a {
+    color: #EADEDA;
+    text-decoration: none;
+}
+
+.craig {
+    background-image: url("./assets/images/highland.jpg");
+    min-height: 250px;
+    width: 100%;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+}
+
+section aside {
+    flex: 1 0 200px;
+    order: 1;
+}
+
+section article {
+    flex: 2 0 400px;
+    order: 2;
+}
