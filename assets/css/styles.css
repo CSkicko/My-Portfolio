@@ -118,6 +118,7 @@ section article {
     padding: 2%;
     margin: 0 1% 1% 1%;
     background: grey;
+    border: 3px solid var(--primary);
 }
 
 .project {
@@ -129,12 +130,16 @@ section article {
     margin: 0 1% 1% 1%;
     background: grey;
     height: 100px;
+    border: 3px solid var(--primary);
 }
 
 .proj-info {
     position: absolute;
-    bottom: 10px;
-    right: 10px;
+    bottom: 0px;
+    right: 0px;
+    padding: 10px;
+    background-color: var(--light);
+    opacity: 0.6;
 }
 
 footer {
@@ -149,7 +154,7 @@ footer {
     align-items: center;
 }
 
-#contact a {
+a {
     color: var(--primary);
 }
 
