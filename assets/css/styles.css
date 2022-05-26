@@ -1,49 +1,92 @@
-* {
-    font-family: 'Trebuchet MS', 'Tahoma', sans-serif;
-    font-size: 16px;
-}
+/* Global styles */
+    * {
+        font-family: 'Trebuchet MS', 'Tahoma', sans-serif;
+        font-size: 16px;
+    }
 
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 16px 2% 16px 0;
-    background-color: #2D3142
-}
+/* Header (and nav) section */
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 16px 2% 16px 0;
+        background-color: #2D3142
+    }
 
-h1 {
-    font-size: 200%;
-    font-weight: 500;
-    color: #EADEDA;
-    border-bottom: 1px solid #0FF4C6;
-    padding: 0% 0.5% 0% 7%;
-}
+    h1 {
+        font-size: 200%;
+        font-weight: 500;
+        color: #ffffff;
+        border-bottom: 1px solid #0FF4C6;
+        padding: 0% 0.5% 0% 7%;
+    }
 
-nav ul {
-    display: flex;
-    justify-content: space-around;
-    min-width: 250px;
-}
+    nav ul {
+        display: flex;
+        justify-content: space-around;
+        min-width: 250px;
+    }
 
-nav a {
-    color: #EADEDA;
-    text-decoration: none;
-}
+    nav a {
+        color: #ffffff;
+        text-decoration: none;
+        padding: 20px;
+    }
 
-.craig {
-    background-image: url("./assets/images/highland.jpg");
-    min-height: 250px;
-    width: 100%;
+    nav a:hover {
+        color: #0FF4C6;
+        text-decoration: underline;
+    }
+
+/* Profile */
+    .cover {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 24px 16px;
+    }
+
+    .cover em {
+        flex: 0 1 500px;
+        padding: 20px 0 20px 30px;
+        font-size: 120%;
+    }
+
+    .craig {
+        flex: 0 0 150px;
+        background-image: url("../images/profile.jpg");
+        background-size: cover;
+        background-position: center;
+        min-width: 150px;
+        min-height: 150px;
+        border-radius: 50%;
+    }
+
+/* Unsorted */
+
+h2 {
+    font-size: 150%;
+    font-weight: 400;
 }
 
 section {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-height: 200px;
+    color: #2D3142;
 }
 
 section aside {
     flex: 1 0 200px;
     order: 1;
+    text-align: right;
+    margin-right: 5%;
+    padding: 3% 2%;
+    border-right: 2px solid #0FF4C6;
 }
 
 section article {
