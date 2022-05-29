@@ -139,7 +139,6 @@ section article {
     position: relative;
     width: 33%;
     text-align: right;
-    padding: 2%;
     margin: 0 1% 1% 1%;
     background: grey;
     height: 100px;
@@ -159,6 +158,7 @@ section article {
     right: 0px;
     padding: 10px;
     background-color: var(--light);
+    z-index: 2;
     opacity: 0.8;
 }
 
@@ -181,6 +181,29 @@ a {
 #contact a:hover {
     color: #0FF4C6;
     text-decoration: underline;
+}
+
+@keyframes brighten{
+    0% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.animator {
+    height: 100%;
+    width: 100%;
+    background-color: var(--primary);
+    opacity: 0.5;
+    z-index: 1;
+}
+
+.animator:hover {
+    animation-name: brighten;
+    animation-duration: 0.4s;
+    animation-fill-mode: forwards;
 }
 
  @media screen and (max-width:992px){
