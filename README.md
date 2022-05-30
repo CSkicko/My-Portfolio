@@ -33,6 +33,6 @@ The application is deemed to meet achieve the user story and acceptance criteria
 
 ### Website
 Use the following link to view the final rendered website:
-
+https://cskicko.github.io/My-Portfolio/
 
 A screenshot of the final product is provided below:
