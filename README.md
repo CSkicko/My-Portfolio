@@ -36,3 +36,4 @@ Use the following link to view the final rendered website:
 https://cskicko.github.io/My-Portfolio/
 
 A screenshot of the final product is provided below:
+![cskicko github io_My-Portfolio_](https://user-images.githubusercontent.com/84214056/170934599-de399af2-14d2-4f66-816b-68355fea521e.png)
