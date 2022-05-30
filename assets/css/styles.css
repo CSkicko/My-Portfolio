@@ -274,3 +274,10 @@
             margin-top: 40px;
         }
     }
+
+    /* Resizing font to ensure nav items display nicely down to 384px */
+    @media screen and (max-width: 452px){
+        nav a {
+            font-size: 12px;
+        }
+    }
